@@ -1,6 +1,9 @@
 Distributed web crawler
 
-== Mercator-based design. Master/Worker structure. 
+author: Haoyun Qiu
+
+== Mercator-based design. Master/slave structure. 
+
 == Worker: 
     Components:
     ==Http Fetcher: For fetching files from web, can handle:
@@ -35,10 +38,6 @@ Extra credits:
     ==Similarity Based Algorithm: 
         Remain another hot url queue for high-correlation web-page as mentioned before.
         Reference: Junghoo Cho, Hector Garcia-Molina, Lawrence Page, Efficient Crawling Through URL Ordering
-
-    ==Indexer and PageRank assistant:
-        ==Crawler extract the content-text of the html file instead of a raw one for indexer. Normally, a cleaned html will only have 1/10 size and the information is much more meaningful. 
-        ==Crawler check and store out-links of a url for PageRank. Malformed and useless url are removed before store. 
 
 Source Structure:
     Crawler worker: ./crawler/src/com/myapp/
