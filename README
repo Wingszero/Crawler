@@ -1,7 +1,9 @@
 Distributed web crawler
+
 author: Haoyun Qiu 
 
-*You can check ./crawler/logs for detail stat of our latest crawled. (11 * m4.large, over 1M crawled pages)
+To maintain academic integrity, source at my private repo: 
+https://bitbucket.org/cis555final/mysearchengine/src
 
 == Mercator-based design. Master/Worker structure. 
 == Worker: 
